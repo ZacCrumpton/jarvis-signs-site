@@ -4,9 +4,9 @@ import FloatingCall from "./components/FloatingCall";
 import Hero from "./components/Hero";
 import { ProofStrip, ContactBlock } from "./components/HomeSections";
 import Upload from "./pages/Upload";
+import Work from "./pages/Work";
 
 // Simple stubs you can flesh out later:
-function Work() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">Work</h1><p className="text-zinc-600">Gallery and case studies coming soon.</p></div>; }
 function Services() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">Services</h1><p className="text-zinc-600">Design & Permitting, Fabrication, Installation, Maintenance, Vehicle Graphics, Wayfinding.</p></div>; }
 function Process() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">Process</h1><ol className="list-decimal pl-5 space-y-2 text-zinc-700"><li>Consult</li><li>Design & Permitting</li><li>Fabricate</li><li>Install</li></ol></div>; }
 function About() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">About</h1><p className="text-zinc-600">Family-owned, craftsmanship-driven sign shop serving Middle Tennessee.</p></div>; }

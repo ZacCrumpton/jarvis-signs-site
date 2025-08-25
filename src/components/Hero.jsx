@@ -1,4 +1,6 @@
 import { PHONE_DISPLAY, PHONE_TEL } from "../lib/site";
+import { Link } from "react-router-dom";
+
 
 export default function Hero() {
   return (
@@ -20,11 +22,12 @@ export default function Hero() {
                className="rounded-xl bg-blue-600 px-5 py-3 font-medium text-white hover:bg-blue-700">
               Call {PHONE_DISPLAY}
             </a>
-            <a href="/work"
+            <Link to="/work"
                className="rounded-xl border px-5 py-3 text-zinc-900 hover:bg-zinc-50
-                          border-zinc-300 dark:border-white/30 dark:text-white dark:hover:bg-white/10">
-              See Installs
-            </a>
+                          border-zinc-300 dark:border-white/30 dark:text-white dark:hover:bg-white/10"
+                          aria-label="See our work">
+              See Our Work
+            </Link>
           </div>
         </div>
 
