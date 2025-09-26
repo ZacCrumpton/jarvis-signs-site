@@ -6,11 +6,11 @@ import { ProofStrip, ContactBlock } from "./components/HomeSections";
 import Upload from "./pages/Upload";
 import Work from "./pages/Work";
 import Services from "./pages/Services";
+import Resources from "./pages/Resources";
+import Process from "./pages/Process";
+import About from "./pages/About";
 
 // Simple stubs you can flesh out later:
-function Process() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">Process</h1><ol className="list-decimal pl-5 space-y-2 text-zinc-700"><li>Consult</li><li>Design & Permitting</li><li>Fabricate</li><li>Install</li></ol></div>; }
-function About() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">About</h1><p className="text-zinc-600">Family-owned, craftsmanship-driven sign shop serving Middle Tennessee.</p></div>; }
-function Resources() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">Resources</h1><ul className="list-disc pl-5 text-zinc-700 space-y-1"><li>Artwork Prep Guide (coming soon)</li><li>Permit Checklist (coming soon)</li><li>Maintenance Tips (coming soon)</li></ul></div>; }
 function NotFound() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 className="text-3xl font-bold">404</h1><p className="text-zinc-600">Page not found.</p></div>; }
 
 export default function App() {
