@@ -15,7 +15,7 @@ function NotFound() { return <div className="mx-auto max-w-6xl px-4 py-12"><h1 c
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0f1115] text-zinc-100 dark:bg-[#0f1115] dark:text-zinc-100">
+    <div className="min-h-screen bg-[#0f1115] text-zinc-100 bg-[#0f1115] text-zinc-100">
 
       <Header />
       <div

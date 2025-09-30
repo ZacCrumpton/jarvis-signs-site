@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-clip bg-white dark:bg-zinc-950">
+    <section className="relative overflow-clip bg-white bg-zinc-950">
      <div
         aria-hidden
         className="absolute inset-0 z-0 bg-center bg-cover"
@@ -23,10 +23,10 @@ export default function Hero() {
       />
       <div className="relative z-20 mx-auto grid max-w-6xl items-end justify-items-end text-right gap-8 px-4 py-20 md:grid-cols-2">
         <div className="md:col-start-2 md:row-start-1 md:justify-self-end max-w-xl text-right">
-          <h1 className="text-5xl font-extrabold tracking-tight text-zinc-900 dark:text-white">
+          <h1 className="text-5xl font-extrabold tracking-tight text-white">
             Make your name the landmark.
           </h1>
-          <p className="max-w-xl text-lg text-zinc-600 dark:text-zinc-300">
+          <p className="max-w-xl text-lg text-zinc-300">
             From drawings to crane day — Jarvis Signs brings it to life with precision and speed.
           </p>
           <div className="flex flex-wrap gap-3">
@@ -35,8 +35,8 @@ export default function Hero() {
               Call {PHONE_DISPLAY}
             </a>
             <Link to="/work"
-               className="rounded-xl border px-5 py-3 text-zinc-900 hover:bg-zinc-50
-                          border-zinc-300 dark:border-white/30 dark:text-white dark:hover:bg-white/10"
+               className="rounded-xl border px-5 py-3
+                          border-white/30 text-white hover:bg-white/10"
                           aria-label="See our work">
               See Our Work
             </Link>
