@@ -11,7 +11,7 @@ export default function CardCarousel({ items = [] }) {
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-14 md:py-16">
-      <h4 className="mb-6 text-3xl font-extrabold tracking-tight text-zinc-900 md:mb-8 md:text-4xl">
+      <h4 className="mb-6 text-3xl font-extrabold tracking-tight text-zinc-300 md:mb-8 md:text-4xl">
         Additional Sign Options
       </h4>
 

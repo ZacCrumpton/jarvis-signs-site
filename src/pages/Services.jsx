@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Drop this file at: src/pages/Services.jsx
-// Then add a route like: <Route path="/services" element={<Services />} />
-// Tailwind-only, no extra libs required.
-
 const SERVICES = [
   {
     title: "Custom Sign Design",
@@ -115,6 +111,10 @@ export default function Services() {
         <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_40%_at_50%_-10%,rgba(239,68,68,0.25),rgba(0,0,0,0))]" />
       </section>
 
+
+
+
+
       {/* Services grid */}
       <section className="mx-auto max-w-6xl px-6 py-12 md:py-16">
         <div className="mb-8 flex items-end justify-between gap-4">
@@ -153,40 +153,6 @@ export default function Services() {
                 ))}
               </ul>
             </article>
-          ))}
-        </div>
-      </section>
-
-      {/* Process */}
-      <section className="mx-auto max-w-6xl px-6 py-12 md:py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold">Our process</h2>
-        <ol className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-5">
-          {[
-            { n: "01", t: "Discovery", d: "Goals, budget, site photos, and brand assets." },
-            { n: "02", t: "Design", d: "Concepts, materials, and proofs for approval." },
-            { n: "03", t: "Build", d: "Fabrication, paint/powder, electrical, QA." },
-            { n: "04", t: "Install", d: "Permits, scheduling, install, final walkthrough." },
-          ].map((step) => (
-            <li key={step.n} className="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
-              <span className="text-neutral-500 text-sm">{step.n}</span>
-              <h3 className="mt-1 font-semibold">{step.t}</h3>
-              <p className="mt-2 text-sm text-neutral-300">{step.d}</p>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      {/* Industries */}
-      <section className="mx-auto max-w-6xl px-6 py-12 md:py-16" id="industries">
-        <div className="mb-6 flex items-end justify-between">
-          <h2 className="text-2xl md:text-3xl font-semibold">Industries we serve</h2>
-          <p className="text-sm text-neutral-400">Multi‑site rollouts and one‑offs welcomed.</p>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
-          {INDUSTRIES.map((i) => (
-            <div key={i} className="rounded-xl border border-neutral-800 bg-neutral-900/40 px-4 py-3 text-center text-sm text-neutral-300">
-              {i}
-            </div>
           ))}
         </div>
       </section>

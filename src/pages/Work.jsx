@@ -109,7 +109,7 @@ const CONTENT_BY_TYPE = {
       kicker: "GRAPHICS",
       title: "WALL WRAPS",
       copy:
-      "Design, print, and install0clean seams, color consistency, and surface-matched materials. Great for brand moments, and wayfinding.",
+      "Design, print, and install clean seams, color consistency, and surface-matched materials. Great for brand moments, and wayfinding.",
       image: "/work/wcw_WallWrap.jpg",
     },
   },
@@ -190,7 +190,7 @@ const { hero, dark, twoCol } =
   return (
     <>
     {/*NEW: Tiny chip bar, no routing/URL-Just local state */}
-    <div className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b">
+    <div className="sticky top-0 z-10 bg-zinc-500/80 backdrop-blur border-b">
       <div className="mx-auto max-w-7xl px-4 py-3 flex flex-wrap gap-2">
         {TYPE_CHIPS.map((chip) => {
           const active = 
@@ -203,7 +203,7 @@ const { hero, dark, twoCol } =
                 onClick={() => setSelectedType(chip.value)}
                 className={[
                     "px-3 py-1.5 rounded-full text-sm border transition",
-                    active ? "bg-zinc-900 text-white border-zinc-900" : "hover:bg-zinc-100"
+                    active ? "bg-zinc-900 text-white border-zinc-900" : "hover:bg-zinc-900"
                 ].join(" ")}
                 aria-pressed={active}
               >

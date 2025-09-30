@@ -10,7 +10,7 @@ export default function TwoColFeature({ kicker, title, copy, image }) {
         <h2 className="text-4xl font-extrabold tracking-tight text-blue-500 md:text-5xl">
           {title}
         </h2>
-        <p className="mt-6 text-zinc-600">{copy}</p>
+        <p className="mt-6 text-zinc-300">{copy}</p>
       </div>
       <div className="relative">
         <img
