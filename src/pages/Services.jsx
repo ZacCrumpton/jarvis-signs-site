@@ -101,7 +101,7 @@ export default function Services() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#quote" className="rounded-2xl bg-red-600 px-5 py-3 text-sm font-medium hover:bg-red-500 transition">
-              Get a Quick Quote
+              Call For a Quote
             </a>
             <Link to='/work' className="rounded-2xl border border-neutral-700 px-5 py-3 text-sm font-medium hover:border-neutral-500 transition">
               See Recent Work
